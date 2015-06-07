@@ -29,8 +29,9 @@ class Parent extends React.Component {
 Child that has no state but can access and set its parents state:
 ```javascript
 import React from 'react';
+import SubComponent from 'react-subcomponent';
 
-class Child extends React.Component {
+class Child extends SubComponent {
 
     handleClick(){
         this.setState({}) // sets parents state
