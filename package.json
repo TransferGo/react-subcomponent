@@ -1,0 +1,32 @@
+{
+  "name": "react-subcomponent",
+  "version": "0.0.1",
+  "description": "A stateless react component",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UgnisSoftware/react-subcomponent"
+  },
+  "keywords": [
+    "react",
+    "subcomponent",
+    "react-component",
+    "react-subcomponent",
+    "stateless"
+  ],
+  "scripts": {
+    "test": "jest",
+    "transpile": "babel src --out-dir lib"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "authors": [
+    "Karolis Masiulis"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^5.4.7"
+  }
+}
