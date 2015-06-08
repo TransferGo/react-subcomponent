@@ -1,6 +1,6 @@
 {
   "name": "react-subcomponent",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A stateless react component",
   "main": "lib",
   "repository": {
