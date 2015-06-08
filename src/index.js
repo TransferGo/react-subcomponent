@@ -9,11 +9,11 @@ export default class extends React.Component {
             throw new Error('No parent provided to a SubComponent');
         }
 
-        this.state = this.props.parent.state;
+        this.state = props.parent.state;
     }
 
-    setState(data) {
-        this.props.parent.setState(data);
+    setState(data, callback) {
+        this.props.parent.setState(data, callback);
     }
 
     componentWillReceiveProps(){
